@@ -111,15 +111,15 @@ Initially, we define the initial position and orientation along with the coordin
 
 Once the initial point is established, the goal is to determine the motion (rotation and translation) between consecutive frames using the concepts explained in Section II. The state vector was defined to store position and orientation over time as follows:
 
-$$
-X_{\text{state}} = 
-\begin{bmatrix} 
-0 & \text{\# tx} \\ 
-0 & \text{\# ty} \\ 
-0 & \text{\# tz} \\ 
-0 & \text{\# } \theta_x \\ 
-0 & \text{\# } \theta_y \\ 
-0 & \text{\# } \theta_z \\ 
+$$ 
+X_{\text{state}} =
+\begin{bmatrix}
+0 & \text{tx} \\
+0 & \text{ty} \\
+0 & \text{tz} \\
+0 & \theta_x \\
+0 & \theta_y \\
+0 & \theta_z \\
 \end{bmatrix}_{6 \times 1}
 $$
 
