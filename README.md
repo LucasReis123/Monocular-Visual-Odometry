@@ -97,6 +97,7 @@ The essential matrix is derived using the camera's intrinsic parameters and esta
 $$
 \mathbf{E} = \mathbf{k}'^T \mathbf{F} \mathbf{k}
 $$
+
 ---
 
 ### E. Triangulation
